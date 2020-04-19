@@ -1,10 +1,9 @@
 function attack (damage) {
-    // Code disini
     return  damage - 2
   }
   
   function damageCalculation (numberOfAttacks, damagePerAttack) {
-    // Code disini    
+      
     let hasil =numberOfAttacks * attack (damagePerAttack)
     return hasil
   }

@@ -1,5 +1,4 @@
 function meleeRangedGrouping (str) {
-    //your code here
     let melee =[]
     let range =[]
     let arry = ""
@@ -23,8 +22,7 @@ function meleeRangedGrouping (str) {
         }
     }
     result.push(range,melee)
-    return result
-    
+    return result  
   }
   
   // TEST CASE
